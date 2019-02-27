@@ -130,6 +130,8 @@ $(document).ready(function(data) {
       "<div class='innerdiv lovediv'><p class='grid-item love-item'>" +
       data.statustext +
       "</p></div>";
-    $(".grid-container").append(firstdiv);
+    setTimeout(() => {
+      $(".grid-container").append(firstdiv);
+    }, 50 * index);
   });
 });

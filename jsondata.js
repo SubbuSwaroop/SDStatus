@@ -139,6 +139,8 @@ $(document).ready(function(data) {
       "<div class='innerdiv funnydiv'><p class='grid-item funny-item'>" +
       data.statustext +
       "</p></div>";
-    $(".grid-container").append(firstdiv);
+    setTimeout(() => {
+      $(".grid-container").append(firstdiv);
+    }, 50 * index);
   });
 });
