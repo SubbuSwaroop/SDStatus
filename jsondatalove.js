@@ -127,7 +127,7 @@ var jsondataLove = {
 $(document).ready(function(data) {
   $.each(jsondataLove.statusarr, function(index, data) {
     var firstdiv =
-      "<div class='innerdiv'><p class='grid-item'>" +
+      "<div class='innerdiv lovediv'><p class='grid-item love-item'>" +
       data.statustext +
       "</p></div>";
     $(".grid-container").append(firstdiv);

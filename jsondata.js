@@ -136,10 +136,8 @@ var jsondata = {
 $(document).ready(function(data) {
   $.each(jsondata.statusarr, function(index, data) {
     var firstdiv =
-      "<div class='innerdiv'><p class='grid-item'>" +
-      "<span style='color:#8bc34a;'>" +
+      "<div class='innerdiv funnydiv'><p class='grid-item funny-item'>" +
       data.statustext +
-      "</span>" +
       "</p></div>";
     $(".grid-container").append(firstdiv);
   });
